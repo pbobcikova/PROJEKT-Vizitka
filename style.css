@@ -1,6 +1,12 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
 
 /*
 BARVY:
@@ -13,4 +19,46 @@ tlačítko Twitter aktivní:	 #0b7bc1
 tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
+body {
+  background-color: #b2bec3;
+}
+h1 {
+  color: #d63031;
+}
+.vizitka {
+  border-radius: 10px;
+  background-color: white;
+  margin: 0 auto;
+  position: relative;
+}
+.foto {
+  border-radius: 50%;
+  border: 3px white;
+  width: 150px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
+.tlacitko1,
+.tlacitko2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+.tlacitko1 {
+  background-color: #1da1f2;
+}
+.tlacitko1:active {
+  background-color: #0b7bc1;
+}
+.tlacitko2 {
+  background-color: #3b5998;
+}
+.tlacitko2:active {
+  background-color: #2b406e;
+}
