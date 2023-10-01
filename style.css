@@ -21,15 +21,21 @@ tlačítko Facebook aktivní: #2b406e
 */
 body {
   background-color: #b2bec3;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
 }
 h1 {
   color: #d63031;
+  font-size:36px;
+  font-weight:bold;
 }
 .vizitka {
   border-radius: 10px;
   background-color: white;
+  width:550px;
   margin: 0 auto;
   position: relative;
+  padding:30px;
 }
 .foto {
   border-radius: 50%;
@@ -42,16 +48,19 @@ h1 {
 
 .tlacitko1,
 .tlacitko2 {
-  font-size: 18px;
   font-weight: bold;
   color: white;
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 5px;
   display: inline-block;
+  width:550px;
+  padding: 10px;
+  text-align:center;
 }
 .tlacitko1 {
   background-color: #1da1f2;
+  margin-bottom: 5px;
 }
 .tlacitko1:active {
   background-color: #0b7bc1;
